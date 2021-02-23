@@ -8,8 +8,8 @@ driver = webdriver.Chrome(r'C:\chromedriver.exe')
 keyword = pyautogui.prompt(text="해시태그를 입력하세요", title="Message")
 
 LOGIN_URL = "https://www.instagram.com/accounts/login/?hl=ko"
-USER_ID = "startcoding73"
-USER_PW = "1q2w3e4r!@@"
+USER_ID = "아이디"
+USER_PW = "비밀번호"
 
 TAG_URL = f"https://www.instagram.com/explore/tags/{keyword}/?hl=ko"
 
